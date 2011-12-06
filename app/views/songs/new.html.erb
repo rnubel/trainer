@@ -1,0 +1,8 @@
+<h2>Add a new song:</h2>
+<%= form_for @song do |f| %>
+  <%= f.label :name, "Name (for reference):" %>
+  <%= f.text_field :name %><br/>
+  <%= f.label :url, "Youtube URL:" %>
+  <%= f.text_field :url %><br/>
+  <%= f.submit %>
+<% end %>
