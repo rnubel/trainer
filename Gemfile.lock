@@ -48,6 +48,11 @@ GEM
     erubis (2.7.0)
     execjs (1.2.11)
       multi_json (~> 1.0)
+    factory_girl (2.3.0)
+      activesupport
+    factory_girl_rails (1.4.0)
+      factory_girl (~> 2.3.0)
+      railties (>= 3.0.0)
     gherkin (2.6.7)
       json (>= 1.4.6)
     hike (1.2.1)
@@ -134,6 +139,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.1.1)
   cucumber
+  factory_girl_rails
   jquery-rails
   json
   mocha
