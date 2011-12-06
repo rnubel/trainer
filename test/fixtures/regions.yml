@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  start: 1.5
+  end: 1.5
+  song_id: 
+
+two:
+  start: 1.5
+  end: 1.5
+  song_id: 
