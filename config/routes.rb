@@ -14,6 +14,7 @@ Trainer::Application.routes.draw do
   #   resources :products
 
   resources :songs
+  resources :regions
 
   # Sample resource route with options:
   #   resources :products do
