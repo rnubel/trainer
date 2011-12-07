@@ -1,6 +1,8 @@
 <h2>Select a song:</h2>
 <ul>
 <% @songs.each do |song| %>
-  <li> <%=song.name %>
+  <li> <%=link_to song.name, song %>
 <% end %>
 </ul>
+
+<%= link_to("Add new", new_song_path) %>
